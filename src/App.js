@@ -3,6 +3,7 @@ import "./style.css";
 import { Component } from "react";
 import { Header } from './components/Header';
 import { ValuationCover } from './components/ValuationCover';
+import { FormModule } from './components/FormModule';
 
 class App extends Component {
     
@@ -12,6 +13,7 @@ class App extends Component {
             <div className="App">
                 <Header />
                 <ValuationCover />
+                <FormModule />
             </div>
         )
     }
