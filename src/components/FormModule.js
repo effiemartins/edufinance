@@ -22,7 +22,7 @@ export class FormModule extends React.Component {
             <input type="text" placeholder="Nome" value={this.state.userInput} onChange={this.handleUserInput} />
             <input type="text" placeholder="E-mail" />
             <input type="text" placeholder="Whatsapp (Opcional)" />
-            <input type="submit" value="Entrar na lista" />
+            <input type="submit" value="Entrar na lista" className="submit" />
         </div>
       )
     }

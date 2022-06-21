@@ -4,6 +4,7 @@ import { Component } from "react";
 import { Header } from './components/Header';
 import { ValuationCover } from './components/ValuationCover';
 import { FormModule } from './components/FormModule';
+import { StarRating } from  './components/Evaluation';
 
 class App extends Component {
     
@@ -14,6 +15,7 @@ class App extends Component {
                 <Header />
                 <ValuationCover />
                 <FormModule />
+                <StarRating />
             </div>
         )
     }
