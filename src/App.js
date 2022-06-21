@@ -5,6 +5,7 @@ import { Header } from './components/Header';
 import { ValuationCover } from './components/ValuationCover';
 import { FormModule } from './components/FormModule';
 import { StarRating } from  './components/Evaluation';
+import { IconsSection } from './components/IconsSection';
 
 class App extends Component {
     
@@ -16,6 +17,7 @@ class App extends Component {
                 <ValuationCover />
                 <FormModule />
                 <StarRating />
+                <IconsSection />
             </div>
         )
     }
