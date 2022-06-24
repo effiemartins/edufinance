@@ -6,6 +6,7 @@ import { ValuationCover } from './components/ValuationCover';
 import { FormModule } from './components/FormModule';
 import { StarRating } from  './components/Evaluation';
 import { IconsSection } from './components/IconsSection';
+import { CardsDashboard } from './components/Collapsible';
 
 class App extends Component {
     
@@ -14,10 +15,11 @@ class App extends Component {
         return(
             <div className="App">
                 <Header />
-                <ValuationCover />
+                <ValuationCover title="Domine o método mais usado no mundo para encontrar ações baratas." text="Bancos, fundos, investidores. Todos eles usam o Valuation pra fechar bons negócios." />
                 <FormModule />
                 <StarRating />
                 <IconsSection />
+                <CardsDashboard />
             </div>
         )
     }
