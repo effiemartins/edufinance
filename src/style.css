@@ -78,6 +78,10 @@ p {
     border: none;
 }
 
+.form input:focus-visible {
+    outline: 2px solid #00F729;
+}
+
 .form p {
     color: #D9D9D9;
     font-size: 14px;
@@ -169,6 +173,10 @@ p {
     margin: 0 auto;
 }
 
+.collapsible {
+    margin-bottom: 80px;
+}
+
 .collapsible .header {
     color: #D9D9D9;
     display: flex;
@@ -186,12 +194,24 @@ p {
     font-size: 22px;
 }
 
+.collapsible .carrossel-function {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.collapsible .carrossel-function button {
+    background: none;
+    border: 0;
+    margin: 0 20px;
+}
+
 .card {
     border: 1px solid #D9D9D9;
     border-radius: 22px;
     padding: 34px;
     width: 98vw;
-    margin: 0 auto;
+    margin: 0 auto 50px;
     box-sizing: border-box;
     color: #D9D9D9;
 }
@@ -255,4 +275,15 @@ p {
 
 .card .classes .flex p:last-of-type {
     margin-left: 24px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 56px;
+}
+
+footer svg {
+    fill: #D9D9D9;
+    height: 24px;
 }

@@ -7,6 +7,7 @@ import { FormModule } from './components/FormModule';
 import { StarRating } from  './components/Evaluation';
 import { IconsSection } from './components/IconsSection';
 import { CardsDashboard } from './components/Collapsible';
+import { Footer } from './components/Footer';
 
 class App extends Component {
     
@@ -20,6 +21,7 @@ class App extends Component {
                 <StarRating />
                 <IconsSection />
                 <CardsDashboard />
+                <Footer />
             </div>
         )
     }
